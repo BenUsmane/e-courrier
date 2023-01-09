@@ -15,29 +15,29 @@ export default function SideBar() {
             <nav className="flex-1 overflow-y-auto">
                 <ul className="py-4 pl-2 pr-2 space-y-2">
                     <li>
-                        <NavLink className='text-white text-xl mt-11 ' to={'#'}>
+                        <NavLink className='text-white text-xl mt-11 ' to={'/dashboard'}>
                             Dashboard
                         </NavLink>
                     </li>
                     <li>
-                    <NavLink className='text-white text-xl mt-11 pt-14' to={'#'}>
+                    <NavLink className='text-white text-xl mt-11 pt-14' to={'/courrier'}>
                             Courriers
                         </NavLink>
                     </li>
                     <li>
-                    <NavLink className='text-white text-xl mt-11 pt-14' to={'#'}>
+                    <NavLink className='text-white text-xl mt-11 pt-14' to={'/contact'}>
                             Contacts
                         </NavLink>
                     </li>
                     <li>
-                    <NavLink className='text-white text-xl mt-11 pt-14' to={'#'}>
+                    <NavLink className='text-white text-xl mt-11 pt-14' to={'/compagnie'}>
                             Entreprise
                         </NavLink>
 
                     </li>
                     
                     <li>
-                    <NavLink className='text-white text-xl mt-11 pt-14' to={'#'}>
+                    <NavLink className='text-white text-xl mt-11 pt-14' to={'/setting'}>
                             <h2 className='w-5 h-5'>Parametre</h2>
                         </NavLink>
                     </li>
