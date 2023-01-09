@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Setting() {
   return (
-    <div>Setting</div>
+    <div className='text-white' >Setting</div>
   )
 }

@@ -13,31 +13,31 @@ export default function SideBar() {
             </div>
             {/* // nav links  */}
             <nav className="flex-1 overflow-y-auto">
-                <ul className="py-4 pl-2 pr-2 space-y-2">
+                <ul className="py-4 pl-2 pr-2 space-y-2 text-4xl">
                     <li>
-                        <NavLink className='text-white text-xl mt-11 ' to={'/dashboard'}>
+                        <NavLink className={({ isActive }) => `flex items-center px-3 py-2 text-blue-500 transition-colors duration-200 transform rounded-md hover:bg-blue-700 ${isActive ? 'bg-blue-500 text-blue-50' : 'text-blue-200'}`} to={'/dashboard'}>
                             Dashboard
                         </NavLink>
                     </li>
                     <li>
-                    <NavLink className='text-white text-xl mt-11 pt-14' to={'/courrier'}>
+                    <NavLink className={({ isActive }) => `flex items-center px-3 py-2 text-blue-500 transition-colors duration-200 transform rounded-md hover:bg-blue-700 ${isActive ? 'bg-blue-500 text-blue-50' : 'text-blue-200'}`} to={'/courrier'}>
                             Courriers
                         </NavLink>
                     </li>
                     <li>
-                    <NavLink className='text-white text-xl mt-11 pt-14' to={'/contact'}>
+                    <NavLink className={({ isActive }) => `flex items-center px-3 py-2 text-blue-500 transition-colors duration-200 transform rounded-md hover:bg-blue-700 ${isActive ? 'bg-blue-500 text-blue-50' : 'text-blue-200'}`} to={'/contact'}>
                             Contacts
                         </NavLink>
                     </li>
                     <li>
-                    <NavLink className='text-white text-xl mt-11 pt-14' to={'/compagnie'}>
+                    <NavLink className={({ isActive }) => `flex items-center px-3 py-2 text-blue-500 transition-colors duration-200 transform rounded-md hover:bg-blue-700 ${isActive ? 'bg-blue-500 text-blue-50' : 'text-blue-200'}`} to={'/compagnie'}>
                             Entreprise
                         </NavLink>
 
                     </li>
                     
                     <li>
-                    <NavLink className='text-white text-xl mt-11 pt-14' to={'/setting'}>
+                    <NavLink className={({ isActive }) => `flex items-center px-3 py-2 text-blue-500 transition-colors duration-200 transform rounded-md hover:bg-blue-700 ${isActive ? 'bg-blue-500 text-blue-50' : 'text-blue-200'}`} to={'/setting'}>
                             <h2 className='w-5 h-5'>Parametre</h2>
                         </NavLink>
                     </li>
