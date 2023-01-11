@@ -10,6 +10,9 @@ import Courrier from './feature/courrier'
 import Contact from './feature/contact'
 import Compagnie from './feature/compagnie'
 import Setting from './feature/setting'
+import AddCourrier from './feature/courrier/addCourrier'
+import AddContact from './feature/contact/addContact'
+import AddCompagnie from './feature/compagnie/addCompagnie'
 
 
 const rooter = createBrowserRouter([
@@ -26,12 +29,24 @@ const rooter = createBrowserRouter([
         element : <Courrier/>
       },
       {
+        path : '/courrier/add',
+        element : <AddCourrier/>
+      },
+      {
         path : '/contact',
         element : <Contact/>
       },
       {
+        path : '/contact/add',
+        element : <AddContact/>
+      },
+      {
         path : '/compagnie',
         element : <Compagnie/>
+      },
+      {
+        path : '/compagnie',
+        element : <AddCompagnie/>
       },
       {
         path : '/setting',

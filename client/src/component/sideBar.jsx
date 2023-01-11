@@ -13,7 +13,7 @@ export default function SideBar() {
             </div>
             {/* // nav links  */}
             <nav className="flex-1 overflow-y-auto">
-                <ul className="py-4 pl-2 pr-2 space-y-2 text-4xl">
+                <ul className="py-4 pl-2 pr-2  space-y-2 text-2xl">
                     <li>
                         <NavLink className={({ isActive }) => `flex items-center px-3 py-2 text-blue-500 transition-colors duration-200 transform rounded-md hover:bg-blue-700 ${isActive ? 'bg-blue-500 text-blue-50' : 'text-blue-200'}`} to={'/dashboard'}>
                             Dashboard
@@ -38,7 +38,7 @@ export default function SideBar() {
                     
                     <li>
                     <NavLink className={({ isActive }) => `flex items-center px-3 py-2 text-blue-500 transition-colors duration-200 transform rounded-md hover:bg-blue-700 ${isActive ? 'bg-blue-500 text-blue-50' : 'text-blue-200'}`} to={'/setting'}>
-                            <h2 className='w-5 h-5'>Parametre</h2>
+                            <h2 >Parametre</h2>
                         </NavLink>
                     </li>
                 </ul>
