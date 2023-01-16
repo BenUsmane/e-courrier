@@ -4,7 +4,7 @@ import userLogo from '../assets/images/user.png'
 
 export default function SideBar() {
   return (
-    <div className="flex flex-col h-screen w-64  bg-blue-600 text-white fixed bottom-0 overflow-y-hidden ">
+    <div className="flex flex-col h-screen w-64  bg-blue-500 text-white fixed bottom-0 overflow-y-hidden ">
             {/* // logo icon and text  */}
             <div className="flex items-center justify-center h-20">
                 <div className="flex justify-center items-center w-full py-4 mt-4 mb-2">
