@@ -2,10 +2,12 @@ import express  from "express";
 import mongoose from "mongoose";
 import { router as courrierRouter } from "./routes/courrier.js";
 import { router as contactRouter } from "./routes/contact.js";
+import { router as userRouter } from "./routes/user.js";
 
 const app = express()
 app.use('/courrier',courrierRouter)
 app.use('/contact',contactRouter)
+app.use('/user',userRouter)
 
 mongoose.set('strictQuery', true)
 mongoose.connect('mongodb+srv://BenUsmane:python666920471usmane@cluster0.ak7bh.mongodb.net/test',{
